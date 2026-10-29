@@ -1,0 +1,86 @@
+{
+  "name": "Blueprint",
+  "slug": "blueprint",
+  "description": "28 system-design skills and a GUIDE reasoning loop for end-to-end infrastructure and AI agent platform architecture.",
+  "long_description": "Blueprint gives Claude a structured library of 28 system-design building blocks — from data storage and caching to agent runtimes and LLM gateways — composed by an orchestrator agent that drives a 6-step GUIDE reasoning loop (clarify → estimate → propose → evaluate trade-offs → stress-test → iterate). Use /design to kick off full architecture sessions, or ask focused questions to invoke individual skills.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Raunak Sharan",
+    "github": "raunaksharan",
+    "email": "raunak@demandion.ai"
+  },
+  "repository": "https://github.com/raunaksharan/claude-agentic-platform-design",
+  "homepage": "https://github.com/raunaksharan/claude-agentic-platform-design",
+  "license": "MIT",
+  "categories": [
+    "engineering",
+    "system-design",
+    "architecture",
+    "ai-agents",
+    "distributed-systems"
+  ],
+  "keywords": [
+    "system-design",
+    "architecture",
+    "distributed-systems",
+    "agent-platform",
+    "infrastructure",
+    "caching",
+    "messaging",
+    "load-balancing",
+    "observability",
+    "resilience",
+    "durable-execution",
+    "llm-gateway",
+    "interview-prep"
+  ],
+  "entry": {
+    "commands": ["commands/design.md"],
+    "agents": ["agents/system-design-orchestrator.md"],
+    "skills_dir": "skills/"
+  },
+  "skills_count": 28,
+  "skill_groups": {
+    "infrastructure": {
+      "count": 21,
+      "skills": [
+        "system-design",
+        "requirements-scoping",
+        "back-of-the-envelope",
+        "service-decomposition",
+        "api-design",
+        "data-storage",
+        "caching",
+        "messaging-streaming",
+        "load-balancing",
+        "content-delivery",
+        "dns",
+        "blob-store",
+        "distributed-search",
+        "distributed-logging",
+        "observability",
+        "resilience-failure",
+        "scaling-evolution",
+        "consistency-coordination",
+        "sequencer",
+        "sharded-counters",
+        "task-scheduling"
+      ]
+    },
+    "agent_platform": {
+      "count": 7,
+      "skills": [
+        "agent-runtime",
+        "llm-gateway",
+        "tool-registry-gateway",
+        "human-in-the-loop",
+        "agent-memory",
+        "agent-security",
+        "agent-eval-deploy"
+      ]
+    }
+  },
+  "screenshots": [],
+  "min_claude_version": "2024.0",
+  "supported_plans": ["pro", "team", "enterprise"]
+}
