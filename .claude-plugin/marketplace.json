@@ -7,8 +7,8 @@
   },
   "plugins": [
     {
-      "name": "blueprint",
-      "source": "./plugins/blueprint",
+      "name": "blueprint-design",
+      "source": "./plugins/blueprint-design",
       "description": "28 system-design building-block skills and a GUIDE reasoning loop. Use /blueprint to start."
     }
   ]
