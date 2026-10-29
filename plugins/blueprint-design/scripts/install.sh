@@ -6,7 +6,7 @@
 #
 # Prefer the marketplace install instead, which handles updates for you:
 #   /plugin marketplace add raunaksharan/claude-agentic-platform-design
-#   /plugin install blueprint-design --marketplace raunaksharan/claude-agentic-platform-design
+#   /plugin install bpd --marketplace raunaksharan/claude-agentic-platform-design
 
 set -euo pipefail
 
@@ -27,4 +27,4 @@ echo ""
 echo "Next steps:"
 echo "  1. Open Claude → Settings → Plugins → Add from folder"
 echo "  2. Select: $PLUGIN_DIR"
-echo "  3. Type /blueprint to start"
+echo "  3. Type /bpd:blueprint to start"

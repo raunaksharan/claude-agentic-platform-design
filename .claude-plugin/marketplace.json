@@ -7,9 +7,9 @@
   },
   "plugins": [
     {
-      "name": "blueprint-design",
+      "name": "bpd",
       "source": "./plugins/blueprint-design",
-      "description": "28 system-design building-block skills and a GUIDE reasoning loop. Use /blueprint to start."
+      "description": "28 system-design building-block skills and a GUIDE reasoning loop. Use /bpd:blueprint to start."
     }
   ]
 }
