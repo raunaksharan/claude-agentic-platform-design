@@ -1,14 +1,7 @@
 ---
 description: Run the bottom-up system-design workflow on a problem — clarify, estimate, design with building blocks, weigh trade-offs, stress-test, and diagram. Covers both infrastructure and AI agent platform architecture. Great for design questions and system-design interview practice.
-argument-hint: <system to design, e.g. "a URL shortener", "WhatsApp at 1B users", or "a multi-tenant AI agent platform">
-allowed-tools:
-- "Task"
-- "Skill"
-- "Read"
-- "Write"
-- "Glob"
-- "Grep"
-- "Bash"
+argument-hint: "<system to design, e.g. a URL shortener, WhatsApp at 1B users, or a multi-tenant AI agent platform>"
+allowed-tools: Task, Skill, Read, Write, Glob, Grep, Bash
 ---
 
 Run the system-design process for: **$ARGUMENTS**
