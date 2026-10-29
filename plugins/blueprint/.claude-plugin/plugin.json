@@ -2,7 +2,7 @@
   "name": "blueprint",
   "displayName": "Blueprint",
   "version": "1.0.0",
-  "description": "28 system-design building-block skills and a GUIDE reasoning loop for end-to-end infrastructure and AI agent platform architecture. Use /design to start.",
+  "description": "28 system-design building-block skills and a GUIDE reasoning loop for end-to-end infrastructure and AI agent platform architecture. Use /blueprint to start.",
   "author": {
     "name": "Raunak Sharan",
     "email": "raunak.bitsgoa@gmail.com"
