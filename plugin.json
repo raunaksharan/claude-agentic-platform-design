@@ -1,0 +1,14 @@
+{
+  "name": "Agentic Platform Design",
+  "description": "28 system-design skills and a GUIDE reasoning loop for end-to-end infrastructure and AI agent platform architecture.",
+  "version": "1.0.0",
+  "author": "Raunak Sharan",
+  "repository": "https://github.com/raunaksharan/claude-agentic-platform-design",
+  "keywords": [
+    "system-design",
+    "architecture",
+    "agent-platform",
+    "infrastructure",
+    "distributed-systems"
+  ]
+}
